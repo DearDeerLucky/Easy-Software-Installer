@@ -40,7 +40,7 @@ def run_installer(name=''):
 
 
 def unzip(source='', des=''):
-    subprocess.Popen('unzip -n ' + source + ' -d ' + des, shell=True)
+    os.system('unzip -n ' + source + ' -d ' + des)
 
 
 def run_command(command):

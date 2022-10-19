@@ -1,7 +1,7 @@
 import os
 import json
 import platform
-import download_helper
+import install_helper
 
 resource_urls_path = './resource/software_download_url.json'
 resource_urls_path_programmer = './resource/software_download_url_programmer.json'
@@ -17,11 +17,11 @@ def get_resource(resource_path):
             if '-' != installer_url or len(installer_url) == 0:
                 installer_name = get_installer_name(installer_url)
                 print(installer_name)
-                download_helper.download(installer_url, installer_name)
-                download_helper.run_installer(installer_name)
+                install_helper.download(installer_url, installer_name)
+                install_helper.run_installer(installer_name)
             else:
                 installer_command = get_installer_command(resource_urls[0])
-                download_helper.run_command(installer_command)
+                install_helper.run_command(installer_command)
 
 
 def get_installer_name(url=''):
