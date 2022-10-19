@@ -1,3 +1,4 @@
+import os
 import json
 import platform
 import download_helper
@@ -17,14 +18,14 @@ def get_resource(resource_path):
                 installer_name = get_installer_name(installer_url)
                 print(installer_name)
                 download_helper.download(installer_url, installer_name)
-                download_helper.run_exe(installer_name)
+                download_helper.run_installer(installer_name)
             else:
                 installer_command = get_installer_command(resource_urls[0])
                 download_helper.run_command(installer_command)
 
 
 def get_installer_name(url=''):
-    return url.split('/')[-1]
+    return url.split('/')[-1].replace('?', '_')
 
 
 def get_installer_url(resource):
@@ -43,5 +44,6 @@ def get_installer_command(resource):
 
 
 if __name__ == '__main__':
+    os.system('mkdir installer')
     get_resource(resource_urls_path)
     get_resource(resource_urls_path_programmer)
