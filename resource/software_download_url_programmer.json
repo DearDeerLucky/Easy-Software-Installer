@@ -48,13 +48,13 @@
   {
     "name": "postman",
     "url_mac": "https://dl.pstmn.io/download/latest/osx_64?postman.zip",
-    "url_windows": "",
+    "url_windows": "https://dl.pstmn.io/download/latest/win64?postman.exe",
     "origin": "https://www.postman.com/"
   },
   {
     "name": "clashX",
     "url_mac": "https://github.com/yichengchen/clashX/releases/download/1.95.1/ClashX.dmg",
-    "url_windows": "",
+    "url_windows": "https://repo.trojan-cdn.com/clash_for_windows_pkg/LatestRelease/Clash.for.Windows.Setup.0.20.5.exe",
     "origin": "https://github.com/yichengchen/clashX/releases"
   }
 ]

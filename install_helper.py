@@ -28,7 +28,7 @@ def download(url, name):
 def run_installer(name=''):
     print('installing ' + name + ' ...')
     if name.endswith('exe'):
-        subprocess.Popen('./installer/' + name, shell=True)
+        subprocess.Popen('.\\installer\\' + name, shell=True)
     else:
         if name.endswith('.zip'):
             path = './installer/' + name.replace('.zip', '')

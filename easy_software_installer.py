@@ -30,7 +30,7 @@ def get_installer_name(url=''):
 
 def get_installer_url(resource):
     if platform.system() == 'Windows':
-        return resource['url']
+        return resource['url_windows']
 
     # todo intel or arm
     return resource['url_mac']
