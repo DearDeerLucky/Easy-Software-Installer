@@ -32,8 +32,12 @@ def get_installer_url(resource):
     if platform.system() == 'Windows':
         return resource['url_windows']
 
-    # todo intel or arm
-    return resource['url_mac']
+    else:
+        # for different mac chip
+        if 'intel' in platform.processor():
+            return resource['url_mac']
+        else:
+            return resource['url_mac_m']
 
 
 def get_installer_command(resource):

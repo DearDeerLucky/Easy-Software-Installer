@@ -2,114 +2,133 @@
   {
     "name": "wechat",
     "url_mac": "https://dldir1.qq.com/weixin/mac/WeChatMac.dmg",
+    "url_mac_m": "-",
     "url_windows": "https://64ecc8b6cbd38327a32bf99702bb23ae.rdt.tfogc.com:49156/dldir1.qq.com/weixin/Windows/WeChatSetup.exe",
     "origin": "https://weixin.qq.com/"
   },
   {
     "name": "qq",
     "url_mac": "https://dldir1.qq.com/qqfile/qq/QQNT/QQ_6.8.6.4481_exp.dmg",
+    "url_mac_m": "-",
     "url_windows": "https://dldir1.qq.com/qqfile/qq/PCQQ9.6.8/QQ9.6.8.28823.exe",
     "origin": "https://im.qq.com/download"
   },
   {
     "name": "dingtalk",
     "url_mac": "https://dtapp-pub.dingtalk.com/dingtalk-desktop/mac_dmg/Release/DingTalk_v6.5.40.24.dmg",
+    "url_mac_m": "https://dtapp-pub.dingtalk.com/dingtalk-desktop/mac_dmg/Release/M1-Beta/DingTalk-ARM64-6.5.42.5.dmg",
     "url_windows": "https://dtapp-pub.dingtalk.com/dingtalk-desktop/win_downloader/dingtalk_downloader.exe",
     "origin": "https://page.dingtalk.com/wow/z/dingtalk/simple/ddhomedownlaod#/"
   },
   {
     "name": "feishu",
     "url_mac": "https://sf3-cn.feishucdn.com/obj/ee-appcenter/492f6e2e/Feishu-darwin_x64-5.22.8-signed.dmg",
+    "url_mac_m": "https://sf3-cn.feishucdn.com/obj/ee-appcenter/e1af37f2/Feishu-darwin_arm64-5.22.8-signed.dmg",
     "url_windows": "https://sf3-cn.feishucdn.com/obj/ee-appcenter/c7874610/Feishu-win32_ia32-5.22.8-signed.exe",
     "origin": "https://www.feishu.cn/download"
   },
   {
     "name": "TencentMeeting",
     "url_mac": "https://updatecdn.meeting.qq.com/cos/0de5c92a171440e096fc1febf561f8a8/TencentMeeting_0300000000_3.11.7.406.publish.x86_64.dmg",
+    "url_mac_m": "https://updatecdn.meeting.qq.com/cos/2c2c98a02bfe4d3c854bc194e1a8fb5a/TencentMeeting_0300000000_3.11.7.406.publish.arm64.dmg",
     "url_windows": "https://updatecdn.meeting.qq.com/cos/947a8fd1faf0d491148980605952049b/TencentMeeting_0300000000_3.11.6.402.publish.exe",
     "origin": "https://meeting.tencent.com/download/"
   },
   {
     "name": "Evernote",
     "url_mac": "https://cdn.yinxiang.com/mac-smd/public/YinxiangBiji_RELEASE_9.5.32_468438.dmg",
+    "url_mac_m": "-",
     "url_windows": "https://cdn-dl.yinxiang.com/YXWin6/public/Evernote_7.0.53.6060.exe",
     "origin": "https://www.yinxiang.com/dl-mac/?"
   },
   {
     "name": "yuque",
     "url_mac": "https://app.nlark.com/yuque-desktop/1.7.1/Yuque-1.7.1.dmg",
+    "url_mac_m": "-",
     "url_windows": "https://app.nlark.com/yuque-desktop/1.7.1/Yuque-1.7.1.exe",
     "origin": "https://www.yuque.com/download"
   },
   {
     "name": "wps",
     "url_mac": "https://package.mac.wpscdn.cn/mac_wps_pkg/4.6.1/WPS_Office_4.6.1(7451)_x64.dmg",
+    "url_mac_m": "https://package.mac.wpscdn.cn/mac_wps_pkg/4.6.1/WPS_Office_4.6.1(7451)_arm64.dmg",
     "url_windows": "https://official-package.wpscdn.cn/wps/download/WPS_Setup_12598.exe",
     "origin": "https://www.wps.cn/"
   },
   {
     "name": "xmind",
     "url_mac": "https://dl2.xmind.cn/Xmind-for-macOS-22.09.3173.dmg",
+    "url_mac_m": "-",
     "url_windows": "https://dl2.xmind.cn/Xmind-for-Windows-64bit-22.09.3168.exe",
     "origin": "https://xmind.cn/download/"
   },
   {
     "name": "aDrive",
     "url_mac": "https://cdn.aliyundrive.net/downloads/apps/desktop/aDrive.dmg",
+    "url_mac_m": "",
     "url_windows": "https://cdn.aliyundrive.net/downloads/apps/desktop/aDrive.exe",
     "origin": "https://www.aliyundrive.com/"
   },
   {
     "name": "mailmaster",
     "url_mac": "https://res.126.net/dl/client/macmail/dashi/mailmaster.dmg",
+    "url_mac_m": "-",
     "url_windows": "https://res.126.net/dl/client/pcmail/dashi/mail.exe",
     "origin": "https://dashi.163.com/index.html"
   },
   {
     "name": "QQMusic",
     "url_mac": "https://dldir1.qq.com/music/clntupate/mac/QQMusicMac_Mgr.dmg",
+    "url_mac_m": "-",
     "url_windows": "https://dldir1.qq.com/music/clntupate/QQMusic_YQQWinPCDL.exe",
     "origin": "https://y.qq.com/download/download.html"
   },
   {
     "name": "NeteaseMusic",
     "url_mac": "https://d1.music.126.net/dmusic/NeteaseMusic_2.3.10_884_web.dmg",
+    "url_mac_m": "-",
     "url_windows": "https://d1.music.126.net/dmusic/NeteaseCloudMusic_Music_official_2.10.5.200451.exe",
     "origin": "https://music.163.com/#/download"
   },
   {
     "name": "iQIYIMedia",
     "url_mac": "https://static-d.iqiyi.com/ext/common/iQIYIMedia_271.dmg",
+    "url_mac_m": "-",
     "url_windows": "https://dl-static.iqiyi.com/hz/IQIYIsetup_z43@xt001.exe",
     "origin": "https://app.iqiyi.com/mac/player/index.html"
   },
   {
     "name": "youku",
     "url_mac": "https://pcclient.download.youku.com/ikumac/youkumac_1.9.9.09197.dmg",
+    "url_mac_m": "-",
     "url_windows": "https://pcclient.download.youku.com/iku-win-release/youkuclient_setup_9.2.10.1001.exe",
     "origin": "https://youku.com/product/index"
   },
   {
     "name": "TencentVideo",
     "url_mac": "https://dldir1.qq.com/qqtv/mac/TencentVideo2.55.0.53481.dmg",
+    "url_mac_m": "",
     "url_windows": "https://dldir1.qq.com/qqtv/TencentVideo11.55.2024.0.exe",
     "origin": "https://v.qq.com/"
   },
   {
     "name": "ximalaya",
     "url_mac": "https://nativedl.pcdn.xmcdn.com/storages/e73f-audiofreehighqps/77/8F/GKwRIW4HCsKaACAAAAGo-qOv.dmg",
+    "url_mac_m": "-",
     "url_windows": "https://nativedl.pcdn.xmcdn.com/storages/7c09-audiofreehighqps/E4/70/GMCoOSAHHUOaACAAAAGwiZCi.exe",
     "origin": "https://www.ximalaya.com/"
   },
   {
     "name": "TheUnarchiver",
     "url_mac": "https://dl.devmate.com/com.macpaw.site.theunarchiver/TheUnarchiver.dmg",
+    "url_mac_m": "",
     "url_windows": "",
     "origin": "https://theunarchiver.com"
   },
   {
     "name": "WinRar",
     "url_mac": "",
+    "url_mac_m": "",
     "url_windows": "https://www.win-rar.com/fileadmin/winrar-versions/winrar/winrar-x64-611sc.exe",
     "origin": "https://www.win-rar.com/postdownload.html?&L=7"
   }

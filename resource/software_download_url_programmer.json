@@ -2,6 +2,7 @@
   {
     "name": "Homebrew",
     "url_mac": "-",
+    "url_mac_m": "",
     "url_windows": "-",
     "command_mac": "/bin/bash -c \"$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)\"",
     "command_windows": "-",
@@ -10,6 +11,7 @@
   {
     "name": "git",
     "url_mac": "https://product-downloads.atlassian.com/software/sourcetree/ga/Sourcetree_4.2.0_246.zip",
+    "url_mac_m": "",
     "url_windows": "https://github.com/git-for-windows/git/releases/download/v2.38.0.windows.1/Git-2.38.0-64-bit.exe",
     "command_mac": "brew install git",
     "command_windows": "-",
@@ -18,42 +20,49 @@
   {
     "name": "SourceTree",
     "url_mac": "https://product-downloads.atlassian.com/software/sourcetree/ga/Sourcetree_4.2.0_246.zip",
+    "url_mac_m": "-",
     "url_windows": "https://product-downloads.atlassian.com/software/sourcetree/windows/ga/SourceTreeSetup-3.4.9.exe",
     "origin": "https://www.sourcetreeapp.com/"
   },
   {
     "name": "pycharm",
     "url_mac": "https://download.jetbrains.com/python/pycharm-community-2022.2.3.dmg",
+    "url_mac_m": "https://download.jetbrains.com.cn/python/pycharm-community-2022.2.3-aarch64.dmg",
     "url_windows": "https://download.jetbrains.com/python/pycharm-community-2022.2.3.exe",
     "origin": "https://www.jetbrains.com/zh-cn/pycharm/download/"
   },
   {
     "name": "android-studio",
     "url_mac": "https://r2---sn-ni57rn7d.gvt1.com/edgedl/android/studio/install/2021.3.1.17/android-studio-2021.3.1.17-mac.dmg",
+    "url_mac_m": "https://r3---sn-ni57rn7r.gvt1.com/edgedl/android/studio/install/2021.3.1.17/android-studio-2021.3.1.17-mac_arm.dmg",
     "url_windows": "https://redirector.gvt1.com/edgedl/android/studio/install/2021.3.1.17/android-studio-2021.3.1.17-windows.exe",
     "origin": "https://developer.android.google.cn/studio#downloads"
   },
   {
     "name": "visualstudio",
     "url_mac": "https://az764295.vo.msecnd.net/stable/d045a5eda657f4d7b676dedbfa7aab8207f8a075/VSCode-darwin-universal.zip",
+    "url_mac_m": "https://az764295.vo.msecnd.net/stable/d045a5eda657f4d7b676dedbfa7aab8207f8a075/VSCode-darwin-arm64.zip",
     "url_windows": "https://az764295.vo.msecnd.net/stable/d045a5eda657f4d7b676dedbfa7aab8207f8a075/VSCodeUserSetup-x64-1.72.2.exe",
     "origin": "https://code.visualstudio.com/Download"
   },
   {
     "name": "mini-program",
     "url_mac": "https://dldir1.qq.com/WechatWebDev/release/be1ec64cf6184b0fa64091919793f068/wechat_devtools_1.06.2209190_darwin_x64.dmg",
+    "url_mac_m": "https://dldir1.qq.com/WechatWebDev/release/be1ec64cf6184b0fa64091919793f068/wechat_devtools_1.06.2209190_darwin_arm64.dmg",
     "url_windows": "https://dldir1.qq.com/WechatWebDev/release/be1ec64cf6184b0fa64091919793f068/wechat_devtools_1.06.2209190_win32_x64.exe",
     "origin": "https://developers.weixin.qq.com/miniprogram/dev/devtools/download.html"
   },
   {
     "name": "postman",
     "url_mac": "https://dl.pstmn.io/download/latest/osx_64?postman.zip",
+    "url_mac_m": "https://dl.pstmn.io/download/latest/osx_arm64?postman.zip",
     "url_windows": "https://dl.pstmn.io/download/latest/win64?postman.exe",
     "origin": "https://www.postman.com/"
   },
   {
     "name": "clashX",
     "url_mac": "https://github.com/yichengchen/clashX/releases/download/1.95.1/ClashX.dmg",
+    "url_mac_m": "-",
     "url_windows": "https://repo.trojan-cdn.com/clash_for_windows_pkg/LatestRelease/Clash.for.Windows.Setup.0.20.5.exe",
     "origin": "https://github.com/yichengchen/clashX/releases"
   }
