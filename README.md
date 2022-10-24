@@ -1,18 +1,26 @@
 # Easy software installer
-> 用于通过脚本自动下载安装包并自动执行安装程序  
-> 装机必备
+> **Download software from resource/*.json and open it automatic**  
+> **You just need to run the script and click *next* (*drag* in macOS)**
 
-## 介绍
-主要通过python脚本来执行下载和执行安装程序
-
-## 准备工作
-1. 以文件形式下载本项目
-2. 安装 [python](https://www.python.org/ftp/python/3.10.8/python-3.10.8-macos11.pkg)
+## Introduction
+In this script, we use python to download software installer (.exe in windows and .dmg in macOS),
+then we can use system command to open installer.   
+This can reduce the time we spend installing multiple commonly used software.
 
 ## Windows
-打开PowerShell/CMD客户端
-运行脚本
-``` shell
+### Prepare
+#### Download
+1. download this project
+2. unzip the project
+
+### Install python
+1. install [python](https://www.python.org/ftp/python/3.10.8/python-3.10.8-macos11.pkg)
+2. install package
+```commandline
 pip install tqdm
+```
+
+### open PowerShell/CMD and run:
+```commandline
 sudo python easy_software_installer.py
 ```
