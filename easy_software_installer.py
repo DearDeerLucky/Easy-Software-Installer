@@ -37,7 +37,9 @@ def get_installer_url(resource):
         if 'intel' in platform.processor():
             return resource['url_mac']
         else:
-            return resource['url_mac_m']
+            if resource['url_mac_m'] != '-' and len(resource['url_mac_m']) > 0:
+                return resource['url_mac_m']
+        return resource['url_mac']
 
 
 def get_installer_command(resource):
